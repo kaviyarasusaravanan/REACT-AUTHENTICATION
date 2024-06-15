@@ -1,0 +1,20 @@
+body{
+    background: radial-gradient(circle, #10011b, #dd0808f3);
+}
+
+.login-block{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    padding : 50px 0;
+}
+
+.login-container{ background:rgb(60, 50, 120); border-radius: 10px; width: 30%; height: 40%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: red;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:white; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-div{display:flex;justify-content: end; margin: 2px;}
+.btn-login{background: #0069c0; color:#fff; font-weight:600; margin-top: 5px;}
+.welcome-page{display:flex;justify-content:center;align-items: center; height:100vh;}
+.welcome-btn{height:50px; background-color: rgb(6, 4, 5);color: white;border:none;border-radius: 10px;padding: 10px;}
